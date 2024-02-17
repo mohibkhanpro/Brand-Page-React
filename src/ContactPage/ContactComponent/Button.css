@@ -1,0 +1,35 @@
+.Contact-btn{
+    padding: 10px 18px 10px 18px;
+    background-color: black;
+    color: white;
+    min-width: 47%;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.outline-btn{
+    padding: 10px 18px 10px 18px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    min-width: 220px;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 100%;
+    cursor: pointer;
+}
+@media only screen and (max-width: 475px) {
+    .Contact-btn{
+        font-size: 10px;
+        padding: 8px 8px 8px 8px;
+    }
+}

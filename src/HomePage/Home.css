@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,800;1,500&display=swap');
+
+.home-main-div{
+    height: 77vh;
+    /* border: 1px solid black; */
+    width: 75vw;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 65px;
+}
+.div-1{
+height: 100%;
+/* border: 1px solid black; */
+width: 55%;
+}
+.div-2{
+    height: 85%;
+    /* border: 1px solid black; */
+    width: 45%;
+    background-image: url(./../Images/shoe_image.png);
+    background-size: cover;
+    background-position: inherit;
+    background-repeat: no-repeat;
+}
+h1{
+    /* font-weight: 800; */
+    font-size: 80px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 80px;
+}
+h6 {
+    margin-top: 37px;
+    font-family: 'Poppins', sans-serif;
+    width: 66%;
+    line-height: 22px;
+    font-size: 13px;
+}
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 14px;
+}
+.btn{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 16px;
+    padding-right: 16px;
+    cursor: pointer;
+}
+.btn-1{
+    background-color:  #D01C28;
+    border: none;
+    color: white;
+}
+.btn-2{
+    color: #5A5959;
+
+    border: 1px solid #5A5959;
+    background-color: white;
+}
+.last-div{
+    /* border: 1px solid black; */
+    width: 48%;
+    height: 16%;
+    color:  #5A5959;
+    margin-top: 12px;
+    
+}
+.flipcart{
+    background-image: url(./../Images/flipkart.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    width: 16%;
+    height: 65%;
+}
+.amazon{
+    background-image: url(./../Images/amazon.png);
+    background-position: inherit;
+    background-repeat: no-repeat;
+    width: 16%;
+    height: 65%;
+}
+
+@media only screen and (max-width: 890px) {
+    .home-main-div {
+      flex-direction: column-reverse;
+      height: 152vh;
+      width: 100vw;
+    }
+    .div-1 {
+        width: 90%;
+    }
+    h1{
+        font-size: 50px;
+    }
+}  
+@media only screen and (max-width: 640px) {
+  /* nav{
+    display: none;
+  } */
+  .div-2{
+    width: 60%;
+  }
+  .last-div{
+    height: 20%;
+  }
+}  
+@media only screen and (max-width: 320px) {
+h1{
+    font-size: 29px;
+    line-height: 42px;
+}
+h6{
+    width: 100%;
+}
+.div-2{
+    height: 71%;
+    width: 100%;
+}
+.home-main-div{
+    height: 128vh;
+}
+.button-div{
+    width: 74%;
+}
+.last-div{
+    width: 100%;
+}
+}  
